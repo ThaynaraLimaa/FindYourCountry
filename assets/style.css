@@ -148,11 +148,15 @@ main {
 
 
 @media (max-width: 720px) {
+    .main {
+        width: 75%;
+    }
     .country-info {
         grid-template-areas: 
             "name"
             "flag"
             "data"
+            "map"
         ;
     }
 }
